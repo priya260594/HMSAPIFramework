@@ -18,7 +18,7 @@ public class BookAppointment {
 	}
 	public BookAppointment(String doctorSpec, String doctor, String data, String time) {
 		super();
-		this(ortho,ravi,sms);
+		this(ortho,ravi,"sms");
 		this.time = time;
 	}
 
